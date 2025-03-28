@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astro Prospector - Space Mining Adventure Game | Play Online</title>
+    <meta name="description" content="Embark on an epic space mining adventure in Astro Prospector. Mine valuable resources, upgrade your ship, and explore the vast cosmos in this engaging online game.">
+    <link rel="canonical" href="https://astroprospector.online">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background-color: #f5f5f7;
+        }
+        .game-container {
+            aspect-ratio: 16/9;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        @media (max-width: 768px) {
+            .game-container {
+                aspect-ratio: 4/3;
+            }
+        }
+    </style>
+</head>
+<body class="min-h-screen">
+    <header class="bg-white shadow-sm">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+            <div class="flex justify-between items-center">
+                <h1 class="text-2xl font-bold text-gray-900">Astro Prospector</h1>
+                <a href="https://html-classic.itch.zone/html/13142449/index.html" class="text-blue-600 hover:text-blue-800" target="_blank">Play on itch.io</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <section class="text-center mb-12">
+            <h2 class="text-4xl font-bold text-gray-900 mb-4">Space Mining Adventure</h2>
+            <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+                Embark on an epic journey through the cosmos as you mine valuable resources and upgrade your spacecraft in this engaging space exploration game.
+            </p>
+        </section>
+
+        <section class="mb-12">
+            <div class="game-container bg-white rounded-lg shadow-lg overflow-hidden">
+                <iframe 
+                    src="https://html-classic.itch.zone/html/13142449/index.html" 
+                    class="w-full h-full border-0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </section>
+
+        <section class="grid md:grid-cols-2 gap-8 mb-12">
+            <div class="bg-white p-6 rounded-lg shadow-sm">
+                <h2 class="text-2xl font-semibold text-gray-900 mb-4">Game Features</h2>
+                <ul class="space-y-3 text-gray-600">
+                    <li>• Explore vast space environments</li>
+                    <li>• Mine valuable resources</li>
+                    <li>• Upgrade your spacecraft</li>
+                    <li>• Face challenging obstacles</li>
+                    <li>• Progressive difficulty system</li>
+                </ul>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-sm">
+                <h2 class="text-2xl font-semibold text-gray-900 mb-4">How to Play</h2>
+                <ul class="space-y-3 text-gray-600">
+                    <li>• Use arrow keys to navigate</li>
+                    <li>• Space bar to mine resources</li>
+                    <li>• Collect upgrades to enhance your ship</li>
+                    <li>• Avoid obstacles and hazards</li>
+                    <li>• Complete missions for rewards</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="bg-white p-6 rounded-lg shadow-sm">
+            <h2 class="text-2xl font-semibold text-gray-900 mb-4">About Astro Prospector</h2>
+            <p class="text-gray-600">
+                Astro Prospector is an engaging space mining adventure that combines resource management with exciting gameplay. As a space prospector, you'll explore various celestial bodies, mine valuable resources, and upgrade your spacecraft to become the ultimate space explorer. The game features intuitive controls, progressive difficulty, and a rewarding upgrade system that keeps you engaged as you journey through the cosmos.
+            </p>
+        </section>
+    </main>
+
+    <footer class="bg-white border-t mt-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+            <p class="text-center text-gray-500">
+                © 2024 Astro Prospector. All rights reserved.
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
